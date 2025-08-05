@@ -96,9 +96,7 @@ footer {
 
 .cards-section {
   background-color: var(--cinza-claro);
-  border-radius: 12px;
   padding: 2rem;
-  margin-bottom: 2rem;
 }
 
 .cards-section h2 {
