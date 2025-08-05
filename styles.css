@@ -151,11 +151,9 @@ ul.cards-list {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   color: var(--preto);
   box-sizing: border-box;
-  text-align: center;
 }
 
 .card-front {
@@ -173,5 +171,35 @@ ul.cards-list {
 .card-front h3,
 .card-back p {
   margin-bottom: 1rem;
+  background-color: var(--azul-card);
+  border-left: 4px solid #71c0bb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
+}
+
+.card-front p,
+.card-back p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .flip-card {
+    width: 90%;
+  }
+
+  .menus {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu_externo ul,
+  .menu_interno ul {
+    justify-content: center;
+  }
+}
