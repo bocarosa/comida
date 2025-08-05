@@ -150,18 +150,18 @@
     }
 
     .card-front,
-    .card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: 12px;
-      backface-visibility: hidden;
-      padding: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      color: var(--preto);
-      box-sizing: border-box;
+.card-back {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    backface-visibility: hidden;
+    padding: 1.5rem;
+    display: flex;
+    color: var(--preto);
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+    justify-content: center;
     }
 
     .card-front {
@@ -202,6 +202,17 @@
         justify-content: center;
       }
     }
+    .card-front {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
+}
+
+.card-front img {
+  max-width: 100%;
+  height: auto;
+}
+
   </style>
 </head>
 
@@ -302,7 +313,7 @@
   </main>
 
   <footer>
-    <p>© 2025 Portfólio de Física</p>
+    <p>receitas</p>
   </footer>
 
   <script>
