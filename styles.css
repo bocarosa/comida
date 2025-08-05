@@ -194,8 +194,7 @@ ul.cards-list {
     justify-content: center;
   }
 }
-
-.card-front {
+.card-front  {
   display: flex;
   justify-content: center; /* centraliza horizontalmente */
   align-items: center;     /* centraliza verticalmente */
@@ -205,4 +204,3 @@ ul.cards-list {
   max-width: 100%;
   height: auto;
 }
-
