@@ -194,3 +194,15 @@ ul.cards-list {
     justify-content: center;
   }
 }
+
+.card-front {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
+}
+
+.card-front img {
+  max-width: 100%;
+  height: auto;
+}
+
