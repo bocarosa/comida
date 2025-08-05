@@ -169,7 +169,7 @@ ul.cards-list {
 }
 
 .card-front img {
-  max-width: 100%;
+  max-width: 65%;
   height: auto;
   border-radius: 8px;
 }
