@@ -151,10 +151,11 @@ ul.cards-list {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   color: var(--preto);
   box-sizing: border-box;
-  flex-direction: row-reverse;
+  text-align: center;
 }
 
 .card-front {
@@ -174,24 +175,3 @@ ul.cards-list {
   margin-bottom: 1rem;
 }
 
-.card-front p,
-.card-back p {
-  font-size: 1rem;
-  line-height: 1.4;
-}
-
-@media (max-width: 768px) {
-  .flip-card {
-    width: 90%;
-  }
-
-  .menus {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .menu_externo ul,
-  .menu_interno ul {
-    justify-content: center;
-  }
-}
