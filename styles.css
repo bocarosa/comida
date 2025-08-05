@@ -154,6 +154,8 @@ ul.cards-list {
   justify-content: flex-start;
   color: var(--preto);
   box-sizing: border-box;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 
 .card-front {
