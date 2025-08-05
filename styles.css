@@ -168,6 +168,13 @@ ul.cards-list {
   transform: rotateY(180deg);
 }
 
+.card-front img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
 .card-front h3,
 .card-back p {
   margin-bottom: 1rem;
