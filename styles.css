@@ -194,8 +194,8 @@ ul.cards-list {
 }
 .card-front  {
   display: flex;
-  justify-content: center; /* centraliza horizontalmente */
-  align-items: center;     /* centraliza verticalmente */
+  justify-content: center;
+  align-items: center;     
 }
 
 .card-front img {
