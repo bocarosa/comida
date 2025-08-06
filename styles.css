@@ -1,11 +1,11 @@
 :root {
   --azul-claro: #8ee1ec;
-  --azul-escuro: #ffffff;
+  --azul-escuro: #6a6a6a;
   --azul-card: #73c2c5;
   --azul-card-back: #549ba1;
   --cinza-claro: #eeeeee;
   --branco: #ffffff;
-  --preto: #000000;
+  --preto: #1f1f1f;
 }
 
 * {
